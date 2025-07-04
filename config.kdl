@@ -258,22 +258,16 @@ plugins {
 load_plugins {
 }
 
-// Use simplified UI to reduce visual clutter
 simplified_ui true
 
-// Use the custom theme
 theme "custom"
 
-// Use compact layout for minimal UI
 default_layout "default"
 
-// Disable startup tips
 show_startup_tips false
 
-// Enable mouse mode
-mouse_mode true
+mouse_mode false
 
-// Keep pane frames but they'll be themed nicely
 pane_frames true
 
 // Other useful settings
